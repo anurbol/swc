@@ -20,4 +20,7 @@ node_modules/
 # Flamegraph
 *.html
 *.svg
-config.bat
+
+# Incident containment: keep local environment secrets out of Git.
+.env
+.env.*
